@@ -1,0 +1,39 @@
+
+
+// .container .box h1{
+//     color: orange;
+// }
+// .container h1{
+//     color: purple;
+// }
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .box{
+        width: 300px;
+        height: 300px;
+        border: 1px solid peru;
+
+        h1{
+
+            color: orange;
+        }
+    }
+    div{
+
+        p{
+            color: aqua;
+        }
+        .test{
+             ul{
+
+                li{
+                    color: red;   
+                }
+             }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+// h1{
+//     color: red;
+// }
+.container{
+    width: 90%;
+margin: auto;
+    .box{
+        width: 30%;
+        height: 50vh;
+        border: 2px solid red;
+        h1{
+            color: orange;
+        }
+    }
+}
